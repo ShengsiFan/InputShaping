@@ -1,7 +1,7 @@
-function [shaper] = Shaper(xi,omega,type,sampleTime)
+function [shaper] = Shaper(xi,omega,type)
     e =2.718281828;
     pi=3.141592654;
-    V=0.1  % EI�ݴ�
+    V=0.1  % EIČÝ´í
     
     if type==1 % ZV
         t2=pi/(omega*sqrt(1-xi^2));
